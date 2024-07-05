@@ -1,0 +1,27 @@
+<div class="main-container">
+    <div class="inner-container">
+      <div class="upper-container">
+        <span>You have data saved in browser from prior session</span>
+        <button mat-flat-button (click)="moveToResumePage()">Continue Where I left off</button>
+      </div>
+      <div class="hr-with-text">
+        <hr />
+        <span>or</span>
+        <hr />
+      </div>
+      <div class="lower-container">
+        <span>Override data with a new resume</span>
+        <div class="browse-file-container">
+          <!-- <img src="../../../.." alt="PDF Image"> -->
+          <span>Browse a pdf file or drop it here</span>
+          <div>
+            <mat-icon>lock</mat-icon>
+            <h6>file data is used locally and never leaves your browser</h6>
+          </div>
+  
+          <button mat-flat-button>Browse file</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
